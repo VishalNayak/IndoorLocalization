@@ -1,0 +1,1905 @@
+Summary file with 40% train data and 50 iterations.
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 1 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5368               59.2037 %
+Incorrectly Classified Instances      3699               40.7963 %
+Kappa statistic                          0.5541
+K&B Relative Info Score             530067.6803 %
+K&B Information Score                18897.2122 bits      2.0842 bits/instance
+Class complexity | order 0           32357.1234 bits      3.5687 bits/instance
+Class complexity | scheme           264001.2732 bits     29.1167 bits/instance
+Complexity improvement     (Sf)    -231644.1498 bits    -25.548  bits/instance
+Mean absolute error                      0.0679
+Root mean squared error                  0.2565
+Relative absolute error                 44.5525 %
+Root relative squared error             92.9073 %
+Coverage of cases (0.95 level)          61.4205 %
+Mean rel. region size (0.95 level)       8.9951 %
+Total Number of Instances             9067     
+
+fMeasure:0.8691796008869179 precision:0.814404432132964 recall:0.9318541996830428
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 730   0   1   1   1   2   0   5   0   0   0   1 |   a = 1
+   0 588   0   1   0  19   0   0   0   0   0  23 |   b = 2
+   3   0 349   4  50  10  23  29   0  69  56   8 |   c = 3
+  15  11  36 294  14  71  38   9  37 230  12  12 |   d = 4
+   2  19  58   4 726   8   9  17   0   8  96  33 |   e = 5
+   1  27   7  22  35 431   2   3   0  24  22  88 |   f = 6
+  11  14  87  14 143  53 229  40  20  46 199  83 |   g = 7
+   6  19 115   2 125   3 115 230   4  19 103  36 |   h = 8
+   3   0  36   3   3   0  47   1 446 109  24   0 |   i = 9
+   1   0  83  13  22  22  20   2 161 355  20   9 |   j = 10
+   1   0  40   0  34   1  64  35  13  29 666  33 |   k = 11
+  14  44  13  11  84  54  11   7   5  30  64 324 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 2 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5315               58.6192 %
+Incorrectly Classified Instances      3752               41.3808 %
+Kappa statistic                          0.5472
+K&B Relative Info Score             522466.5865 %
+K&B Information Score                18627.4054 bits      2.0544 bits/instance
+Class complexity | order 0           32357.019  bits      3.5687 bits/instance
+Class complexity | scheme           245771.1475 bits     27.1061 bits/instance
+Complexity improvement     (Sf)    -213414.1285 bits    -23.5375 bits/instance
+Mean absolute error                      0.0691
+Root mean squared error                  0.259 
+Relative absolute error                 45.3569 %
+Root relative squared error             93.8136 %
+Coverage of cases (0.95 level)          60.5272 %
+Mean rel. region size (0.95 level)       8.9739 %
+Total Number of Instances             9067     
+
+fMeasure:0.8425076452599388 precision:0.8187221396731055 recall:0.8677165354330708
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 741   0   1   3   0   1   1   5   0   0   0   2 |   a = 1
+   0 551   0   1   0  22   0   0   0   0   0  61 |   b = 2
+   1   0 395   3  43   7  26  52   1  71  51   4 |   c = 3
+  16  10  46 286  14  73  42  12  32 218  13  11 |   d = 4
+   5  11  47   3 748   4  19  13   0  10  84  34 |   e = 5
+   1  36   3  23  30 418   3   3   1  20  20  90 |   f = 6
+   9  13  73  15 145  57 258  44  14  53 191  57 |   g = 7
+   6  16 116   4 113   6 118 219   1  16 102  29 |   h = 8
+   2   0  30   2   0   0  60   2 359 150  23   0 |   i = 9
+   2   1  70  14  16  35  29   2 139 370  15   5 |   j = 10
+   1   0  38   0  37  10  69  23  13  37 718   5 |   k = 11
+  12  35   9   9  97  99  29   7   6  26  92 252 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 3 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5340               58.8949 %
+Incorrectly Classified Instances      3727               41.1051 %
+Kappa statistic                          0.5501
+K&B Relative Info Score             526794.2023 %
+K&B Information Score                18788.3354 bits      2.0722 bits/instance
+Class complexity | order 0           32344.1849 bits      3.5672 bits/instance
+Class complexity | scheme           244647.0512 bits     26.9821 bits/instance
+Complexity improvement     (Sf)    -212302.8663 bits    -23.4149 bits/instance
+Mean absolute error                      0.0685
+Root mean squared error                  0.2575
+Relative absolute error                 44.9207 %
+Root relative squared error             93.2633 %
+Coverage of cases (0.95 level)          61.1889 %
+Mean rel. region size (0.95 level)       9.0006 %
+Total Number of Instances             9067     
+
+fMeasure:0.8899082568807339 precision:0.8673621460506706 recall:0.9136577708006279
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 741   0   1   3   0   2   1   3   0   0   0   2 |   a = 1
+   0 582   0   0   0  20   0   0   0   0   0  35 |   b = 2
+   3   0 347   5  61  15  26  48   0  61  48   2 |   c = 3
+  14   9  43 274  13  69  37  11  23 240  10  12 |   d = 4
+   4  11  38   5 759   5  11  10   0   6 100  35 |   e = 5
+   0  14   7  31  27 448   3   6   1  26  25  59 |   f = 6
+   9   5  77  12 157  53 244  56  10  34 202  66 |   g = 7
+   6  12 113   8 132   8 106 250   0  18 101  17 |   h = 8
+   2   0  28   2   2   0  68   2 380 145  30   0 |   i = 9
+   3   1  67  15  17  31  33   1 131 384  22   4 |   j = 10
+   1   0  53   0  63   9  76  25   9  36 671   8 |   k = 11
+   6  37  12  11 107  83  16   5   1  28  94 260 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 4 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5403               59.5897 %
+Incorrectly Classified Instances      3664               40.4103 %
+Kappa statistic                          0.5576
+K&B Relative Info Score             532316.3996 %
+K&B Information Score                19014.2539 bits      2.0971 bits/instance
+Class complexity | order 0           32318.3713 bits      3.5644 bits/instance
+Class complexity | scheme           234761.0819 bits     25.8918 bits/instance
+Complexity improvement     (Sf)    -202442.7105 bits    -22.3274 bits/instance
+Mean absolute error                      0.0674
+Root mean squared error                  0.2555
+Relative absolute error                 44.2413 %
+Root relative squared error             92.5535 %
+Coverage of cases (0.95 level)          61.7404 %
+Mean rel. region size (0.95 level)       8.9932 %
+Total Number of Instances             9067     
+
+fMeasure:0.8524096385542168 precision:0.8016997167138811 recall:0.909967845659164
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 745   0   1   2   0   0   5   6   0   0   0   2 |   a = 1
+   0 566   0   1   0  20   0   0   0   0   0  35 |   b = 2
+   1   0 355   1  47  12  44  36   0  61  53   9 |   c = 3
+  16   8  39 305   7  72  46  10  23 241  14  16 |   d = 4
+   6  20  52   2 754  11  18  21   0   6  97  32 |   e = 5
+   1  37   7  29  24 411   2   4   0  23  16  89 |   f = 6
+   9  14  62  10 118  41 256  45  16  45 218  81 |   g = 7
+   6  16  99   6 116   5 125 246   2  19 110  18 |   h = 8
+   1   0  21   1   0   1  63   0 407 115  23   0 |   i = 9
+   2   0  63  11  15  27  39   2 134 369  21   7 |   j = 10
+   0   0  44   0  51   2  75  18  14  37 708  20 |   k = 11
+   9  45  11   6  90  61  25   3   3  26  72 281 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 5 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5261               58.0236 %
+Incorrectly Classified Instances      3806               41.9764 %
+Kappa statistic                          0.5407
+K&B Relative Info Score             517178.9007 %
+K&B Information Score                18464.9441 bits      2.0365 bits/instance
+Class complexity | order 0           32325.2591 bits      3.5652 bits/instance
+Class complexity | scheme           262619.0335 bits     28.9643 bits/instance
+Complexity improvement     (Sf)    -230293.7744 bits    -25.3991 bits/instance
+Mean absolute error                      0.0699
+Root mean squared error                  0.2606
+Relative absolute error                 45.8694 %
+Root relative squared error             94.4077 %
+Coverage of cases (0.95 level)          60.2184 %
+Mean rel. region size (0.95 level)       8.9647 %
+Total Number of Instances             9067     
+
+fMeasure:0.8589147286821706 precision:0.8075801749271136 recall:0.9172185430463576
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 731   0   0   5   1   0   1   5   0   0   0   2 |   a = 1
+   0 554   0   0   0  16   0   0   0   0   0  34 |   b = 2
+   2   0 346   3  43   8  46  40   0  59  50  14 |   c = 3
+  14  15  53 300  12  63  45  15  22 215  14  18 |   d = 4
+   3  20  44   2 731  10  10  21   0   8  97  59 |   e = 5
+   1  41   5  34  25 419   2   5   1  21  21 107 |   f = 6
+  12   8  73  14 127  40 257  36  15  45 204  94 |   g = 7
+   6  11 106   7 121   4 126 232   0  16  97  39 |   h = 8
+   2   0  33   2   1   0  74   1 387 114  37   0 |   i = 9
+   2   1  91  26  15  21  28   4 122 330  19  13 |   j = 10
+   2   0  49   1  55   3  80  28  14  33 684  16 |   k = 11
+   6  36  12  10  83  76  21   7   5  24  86 290 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 6 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5434               59.9316 %
+Incorrectly Classified Instances      3633               40.0684 %
+Kappa statistic                          0.5618
+K&B Relative Info Score             536698.886  %
+K&B Information Score                19141.3517 bits      2.1111 bits/instance
+Class complexity | order 0           32346.897  bits      3.5675 bits/instance
+Class complexity | scheme           252564.7666 bits     27.8554 bits/instance
+Complexity improvement     (Sf)    -220217.8696 bits    -24.2878 bits/instance
+Mean absolute error                      0.0668
+Root mean squared error                  0.2543
+Relative absolute error                 43.8086 %
+Root relative squared error             92.1164 %
+Coverage of cases (0.95 level)          62.1264 %
+Mean rel. region size (0.95 level)       8.9712 %
+Total Number of Instances             9067     
+
+fMeasure:0.8710601719197707 precision:0.8205128205128205 recall:0.9282442748091603
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 706   0   0   4   1   1   3   2   0   0   0   3 |   a = 1
+   0 608   0   0   0  20   0   0   0   0   0  27 |   b = 2
+   3   0 356   4  41   8  21  36   1  72  54  16 |   c = 3
+  14  12  36 296  10  62  46   4  24 234  16  13 |   d = 4
+   4  17  39   2 745   8  18  18   0  11  93  34 |   e = 5
+   0  36   4  22  18 453   3   4   1  25  24  77 |   f = 6
+   9  10  88  10 119  41 241  43  16  42 194  97 |   g = 7
+   5  15 126   7 124   4 101 249   3  16 104  34 |   h = 8
+   3   0  40   3   0   1  61   1 394 110  22   0 |   i = 9
+   3   0  69  14  17  20  26   2 158 347  14  15 |   j = 10
+   1   0  43   0  37   1  68  22  13  34 700  42 |   k = 11
+   5  43   7   8  81  61  22   4   5  30  73 339 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 7 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5369               59.2147 %
+Incorrectly Classified Instances      3698               40.7853 %
+Kappa statistic                          0.5536
+K&B Relative Info Score             528982.4929 %
+K&B Information Score                18857.3612 bits      2.0798 bits/instance
+Class complexity | order 0           32359.0802 bits      3.5689 bits/instance
+Class complexity | scheme           257976.9706 bits     28.4523 bits/instance
+Complexity improvement     (Sf)    -225617.8904 bits    -24.8834 bits/instance
+Mean absolute error                      0.0681
+Root mean squared error                  0.2571
+Relative absolute error                 44.7101 %
+Root relative squared error             93.1156 %
+Coverage of cases (0.95 level)          61.2    %
+Mean rel. region size (0.95 level)       8.9611 %
+Total Number of Instances             9067     
+
+fMeasure:0.8571428571428572 precision:0.8246656760772659 recall:0.8922829581993569
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 738   0   0   4   0   2   1   4   0   1   0   1 |   a = 1
+   0 555   0   0   0  29   0   0   0   0   0  38 |   b = 2
+   2   0 330   8  53  14  33  69   1  57  53   3 |   c = 3
+  13  10  38 317  12  65  53  11  23 199  14  10 |   d = 4
+   3  18  57   4 764  10  12  20   0   7  89  32 |   e = 5
+   1  29   4  37  35 455   3   2   2  20  20  72 |   f = 6
+   9   8  70  10 135  51 262  32  17  36 191  67 |   g = 7
+   8  14  90   8 114   5 124 257   2  19 109  21 |   h = 8
+   2   0  26   2   1   0  53   1 397 138  39   0 |   i = 9
+   2   1  51  23  17  25  30   3 147 361  18   0 |   j = 10
+   0   0  37   0  53   9  80  31  11  38 669   3 |   k = 11
+   8  38  13  10 106  95  23   8   5  29  84 264 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 8 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5335               58.8397 %
+Incorrectly Classified Instances      3732               41.1603 %
+Kappa statistic                          0.5499
+K&B Relative Info Score             526917.0811 %
+K&B Information Score                18773.1055 bits      2.0705 bits/instance
+Class complexity | order 0           32372.4685 bits      3.5704 bits/instance
+Class complexity | scheme           245909.711  bits     27.1214 bits/instance
+Complexity improvement     (Sf)    -213537.2425 bits    -23.551  bits/instance
+Mean absolute error                      0.0687
+Root mean squared error                  0.2578
+Relative absolute error                 45.0459 %
+Root relative squared error             93.3765 %
+Coverage of cases (0.95 level)          61.1558 %
+Mean rel. region size (0.95 level)       8.9794 %
+Total Number of Instances             9067     
+
+fMeasure:0.8678414096916298 precision:0.8371104815864022 recall:0.9009146341463414
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 722   0   0   3   0   1   1   4   0   1   0   2 |   a = 1
+   0 591   0   1   0  21   0   0   0   0   0  43 |   b = 2
+   2   0 347   8  56   9  44  39   0  58  57   4 |   c = 3
+  19  11  41 315  13  69  43  12  25 224  13  15 |   d = 4
+   4  17  44   4 712   9  17  14   0  10  96  30 |   e = 5
+   1  31   8  34  32 459   2   3   2  22  14  90 |   f = 6
+   9   8  62  13 144  47 254  44  19  42 187  77 |   g = 7
+   4  13 123   8 132   5 105 248   1  16  97  23 |   h = 8
+   1   0  36   4   1   1  47   2 377 150  22   0 |   i = 9
+   1   1  71  26  17  20  19   2 132 365  18   7 |   j = 10
+   1   0  53   0  53   8  60  26  10  39 691   7 |   k = 11
+  12  34   9   9 114  90  14   4   5  24  80 254 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 9 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5408               59.6449 %
+Incorrectly Classified Instances      3659               40.3551 %
+Kappa statistic                          0.5586
+K&B Relative Info Score             533624.5523 %
+K&B Information Score                19016.1664 bits      2.0973 bits/instance
+Class complexity | order 0           32368.6813 bits      3.5699 bits/instance
+Class complexity | scheme           243094.3467 bits     26.8109 bits/instance
+Complexity improvement     (Sf)    -210725.6654 bits    -23.2409 bits/instance
+Mean absolute error                      0.0674
+Root mean squared error                  0.2553
+Relative absolute error                 44.1941 %
+Root relative squared error             92.4709 %
+Coverage of cases (0.95 level)          61.8727 %
+Mean rel. region size (0.95 level)       8.9951 %
+Total Number of Instances             9067     
+
+fMeasure:0.8687782805429864 precision:0.8205128205128205 recall:0.9230769230769231
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 752   0   0   1   1   2   1   4   0   1   0   2 |   a = 1
+   0 576   0   0   0  23   0   0   0   0   0  25 |   b = 2
+   3   0 360   8  56   9  39  42   0  59  56   7 |   c = 3
+  16  11  47 290  13  70  50   8  39 229  16  11 |   d = 4
+   4  18  47   4 735   7  10  25   0   8  93  31 |   e = 5
+   1  26   7  28  34 445   4   4   0  32  24  66 |   f = 6
+  12   6  72  11 137  38 250  32  14  54 202  82 |   g = 7
+   7  13 112   6 118   5 107 238   4  10  97  31 |   h = 8
+   3   0  26   2   3   0  62   1 407  92  27   0 |   i = 9
+   1   1  55  15  13  23  35   4 158 365  19   8 |   j = 10
+   2   0  38   0  39   2  73  18  12  27 690  23 |   k = 11
+   7  51   9   9 100  75  20   9   7  24  74 300 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 10 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5333               58.8177 %
+Incorrectly Classified Instances      3734               41.1823 %
+Kappa statistic                          0.5494
+K&B Relative Info Score             525948.1641 %
+K&B Information Score                18750.5402 bits      2.068  bits/instance
+Class complexity | order 0           32352.9809 bits      3.5682 bits/instance
+Class complexity | scheme           252306.2678 bits     27.8269 bits/instance
+Complexity improvement     (Sf)    -219953.2869 bits    -24.2587 bits/instance
+Mean absolute error                      0.0686
+Root mean squared error                  0.2578
+Relative absolute error                 45.0182 %
+Root relative squared error             93.3829 %
+Coverage of cases (0.95 level)          61.1117 %
+Mean rel. region size (0.95 level)       9.0015 %
+Total Number of Instances             9067     
+
+fMeasure:0.8597285067873304 precision:0.8248914616497829 recall:0.8976377952755905
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 727   0   1   3   1   2   1   4   0   1   0   2 |   a = 1
+   0 570   0   1   0  25   0   0   0   0   0  39 |   b = 2
+   2   0 354   6  49  17  42  34   2  66  50   1 |   c = 3
+  13  11  42 305  10  69  35   6  46 203  14   9 |   d = 4
+   3  16  50   5 729   6  13  16   0  10 103  25 |   e = 5
+   0  33   5  28  34 455   3   6   1  24  19  61 |   f = 6
+  11  11  69  10 154  55 249  34  13  53 189  54 |   g = 7
+   8  13 118   5 142   5 112 236   4  20 100  28 |   h = 8
+   5   0  22   3   1   0  63   1 391 125  21   0 |   i = 9
+   2   1  55  18  17  32  25   0 184 346  20   3 |   j = 10
+   1   0  39   0  54   9  64  16  11  33 728   0 |   k = 11
+   9  36  12   7 128 105  16   9   5  32  74 243 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 11 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5345               58.95   %
+Incorrectly Classified Instances      3722               41.05   %
+Kappa statistic                          0.5509
+K&B Relative Info Score             528925.0001 %
+K&B Information Score                18871.2223 bits      2.0813 bits/instance
+Class complexity | order 0           32364.909  bits      3.5695 bits/instance
+Class complexity | scheme           258327.7731 bits     28.491  bits/instance
+Complexity improvement     (Sf)    -225962.864  bits    -24.9215 bits/instance
+Mean absolute error                      0.0683
+Root mean squared error                  0.2572
+Relative absolute error                 44.825  %
+Root relative squared error             93.1574 %
+Coverage of cases (0.95 level)          61.2551 %
+Mean rel. region size (0.95 level)       9.0061 %
+Total Number of Instances             9067     
+
+fMeasure:0.8741258741258741 precision:0.8311170212765957 recall:0.9218289085545722
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 741   0   0   3   1   1   1   5   0   0   0   3 |   a = 1
+   0 625   0   1   0  19   0   0   0   0   0  33 |   b = 2
+   1   0 343   7  54   7  23  63   0  54  44   8 |   c = 3
+  13  11  43 256   9  70  38  15  27 239   9  12 |   d = 4
+   2  20  53   4 724   6   4  25   0   9 100  29 |   e = 5
+   1  26  10  32  23 396   0   3   1  26  19  86 |   f = 6
+  10  14  74  11 136  43 237  60  12  49 222  84 |   g = 7
+   9  17 105   4 115   4 116 257   1  24 109  29 |   h = 8
+   3   0  43   2   3   0  45   5 397 120  29   0 |   i = 9
+   2   1  76  15  21  22  19   5 149 359  21  12 |   j = 10
+   2   0  41   0  46   2  45  28  12  44 726  27 |   k = 11
+   8  38  12   9  80  64  16   7   6  29  72 284 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 12 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5365               59.1706 %
+Incorrectly Classified Instances      3702               40.8294 %
+Kappa statistic                          0.5533
+K&B Relative Info Score             528063.0692 %
+K&B Information Score                18822.2929 bits      2.0759 bits/instance
+Class complexity | order 0           32372.0862 bits      3.5703 bits/instance
+Class complexity | scheme           256002.8217 bits     28.2346 bits/instance
+Complexity improvement     (Sf)    -223630.7355 bits    -24.6642 bits/instance
+Mean absolute error                      0.0683
+Root mean squared error                  0.2571
+Relative absolute error                 44.811  %
+Root relative squared error             93.13   %
+Coverage of cases (0.95 level)          61.3102 %
+Mean rel. region size (0.95 level)       8.9794 %
+Total Number of Instances             9067     
+
+fMeasure:0.86046511627907 precision:0.8197932053175776 recall:0.9053833605220228
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 717   0   0   2   1   0   0   4   0   0   0   2 |   a = 1
+   0 555   0   1   0  21   0   0   0   0   0  36 |   b = 2
+   2   0 387   5  44  13  33  42   0  68  48   3 |   c = 3
+  10   9  46 273  14  85  41  10  32 219  14   7 |   d = 4
+   5  13  56   3 733   9   9  14   0  11 102  39 |   e = 5
+   1  28   7  25  38 431   0   5   0  23  25  69 |   f = 6
+  14  15  81   6 137  48 251  32  15  57 195  69 |   g = 7
+   8  17 115   6 123   5 111 237   2  15  93  23 |   h = 8
+   3   0  29   2   2   1  52   2 408 115  20   0 |   i = 9
+   2   0  72  17  14  20  29   2 174 382  12   1 |   j = 10
+   1   0  36   0  42   6  68  19   8  42 710  11 |   k = 11
+   9  40  15  12 104  82  20   6   9  30  92 281 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 13 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5360               59.1155 %
+Incorrectly Classified Instances      3707               40.8845 %
+Kappa statistic                          0.5526
+K&B Relative Info Score             528799.0005 %
+K&B Information Score                18860.9771 bits      2.0802 bits/instance
+Class complexity | order 0           32351.1412 bits      3.568  bits/instance
+Class complexity | scheme           247234.9699 bits     27.2676 bits/instance
+Complexity improvement     (Sf)    -214883.8287 bits    -23.6996 bits/instance
+Mean absolute error                      0.0681
+Root mean squared error                  0.2569
+Relative absolute error                 44.6957 %
+Root relative squared error             93.0583 %
+Coverage of cases (0.95 level)          61.2992 %
+Mean rel. region size (0.95 level)       8.985  %
+Total Number of Instances             9067     
+
+fMeasure:0.8674698795180723 precision:0.8263988522238164 recall:0.9128367670364501
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 716   0   1   4   1   1   1   4   0   0   0   2 |   a = 1
+   0 576   0   1   0  19   0   0   0   0   0  35 |   b = 2
+   1   0 377   7  54  12  29  33   1  74  59   4 |   c = 3
+  13  11  39 321   9  66  39  10  32 241  15   6 |   d = 4
+   4  19  50   3 710  11  22  15   0  10 110  41 |   e = 5
+   0  29   9  30  31 440   1   1   1  25  18  61 |   f = 6
+  11  10  67  17 134  51 253  39   8  42 189  64 |   g = 7
+   2  13 111   8 130   2 122 236   2  23 101  31 |   h = 8
+   2   0  26   1   2   0  53   2 400 116  27   0 |   i = 9
+   1   0  62  19  16  30  21   4 160 361  20   5 |   j = 10
+   1   0  45   0  48   9  89  15  12  37 712   2 |   k = 11
+   8  39   8  10  94  99  21   7   4  28  72 258 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 14 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5347               58.9721 %
+Incorrectly Classified Instances      3720               41.0279 %
+Kappa statistic                          0.5511
+K&B Relative Info Score             527111.3254 %
+K&B Information Score                18789.8407 bits      2.0723 bits/instance
+Class complexity | order 0           32377.1023 bits      3.5709 bits/instance
+Class complexity | scheme           258063.2113 bits     28.4618 bits/instance
+Complexity improvement     (Sf)    -225686.1089 bits    -24.8909 bits/instance
+Mean absolute error                      0.0684
+Root mean squared error                  0.2576
+Relative absolute error                 44.9011 %
+Root relative squared error             93.2839 %
+Coverage of cases (0.95 level)          60.9132 %
+Mean rel. region size (0.95 level)       8.9666 %
+Total Number of Instances             9067     
+
+fMeasure:0.8601119104716227 precision:0.8102409638554217 recall:0.9165247018739353
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 762   0   3   1   1   1   0   9   0   0   0   1 |   a = 1
+   0 538   0   1   0  20   0   0   0   0   0  28 |   b = 2
+   0   0 349  11  54  12  31  46   1  70  59  11 |   c = 3
+  14  11  50 291  16  68  46  12  41 209  16   7 |   d = 4
+   1  16  35   4 735   6  24  14   0   7  99  36 |   e = 5
+   1  29   5  41  31 448   5   4   1  24  22  58 |   f = 6
+   8  12  66  14 153  51 249  44  11  36 199  83 |   g = 7
+   7  14 113   8 125   6 109 231   4  13 100  26 |   h = 8
+   3   0  42   4   1   0  47   9 418 115  28   0 |   i = 9
+   1   0  61  13  19  22  22   4 147 334  22   5 |   j = 10
+   1   0  49   0  53   7  56  29  13  33 686  19 |   k = 11
+   5  44   9  11  90  79  19   4   4  29  86 306 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 15 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5378               59.314  %
+Incorrectly Classified Instances      3689               40.686  %
+Kappa statistic                          0.5552
+K&B Relative Info Score             532641.3022 %
+K&B Information Score                18979.3807 bits      2.0932 bits/instance
+Class complexity | order 0           32368.4396 bits      3.5699 bits/instance
+Class complexity | scheme           253753.7923 bits     27.9865 bits/instance
+Complexity improvement     (Sf)    -221385.3527 bits    -24.4166 bits/instance
+Mean absolute error                      0.0678
+Root mean squared error                  0.2563
+Relative absolute error                 44.4725 %
+Root relative squared error             92.8165 %
+Coverage of cases (0.95 level)          61.5749 %
+Mean rel. region size (0.95 level)       8.9877 %
+Total Number of Instances             9067     
+
+fMeasure:0.8648255813953488 precision:0.8161865569272977 recall:0.919629057187017
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 731   0   0   4   0   1   2   7   0   0   0   4 |   a = 1
+   0 595   0   1   0  20   0   0   0   0   0  31 |   b = 2
+   1   0 348   2  51  10  36  57   0  60  45  12 |   c = 3
+  14  15  47 296   7  75  49  11  36 205  13  15 |   d = 4
+   4  15  58   3 709   6   9  19   0  10  99  32 |   e = 5
+   0  37   8  27  29 418   1   2   0  17  13 121 |   f = 6
+   6  10  82  16 131  42 217  47  19  40 203  93 |   g = 7
+   7  17 110   5 124   5 105 247   5  18  90  25 |   h = 8
+   1   0  30   7   1   0  52   6 450  87  23   0 |   i = 9
+   3   1  68  22  20  20  28   7 164 355  20  16 |   j = 10
+   1   0  34   1  40   3  58  22  14  33 700  43 |   k = 11
+   9  39  10  10  76  58  10   6  10  23  72 312 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 16 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5386               59.4022 %
+Incorrectly Classified Instances      3681               40.5978 %
+Kappa statistic                          0.5561
+K&B Relative Info Score             531591.6258 %
+K&B Information Score                18945.1671 bits      2.0895 bits/instance
+Class complexity | order 0           32358.7286 bits      3.5688 bits/instance
+Class complexity | scheme           245079.5733 bits     27.0298 bits/instance
+Complexity improvement     (Sf)    -212720.8447 bits    -23.461  bits/instance
+Mean absolute error                      0.0678
+Root mean squared error                  0.256 
+Relative absolute error                 44.5063 %
+Root relative squared error             92.7273 %
+Coverage of cases (0.95 level)          61.5749 %
+Mean rel. region size (0.95 level)       9.0438 %
+Total Number of Instances             9067     
+
+fMeasure:0.8744394618834082 precision:0.8297872340425532 recall:0.9241706161137441
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 730   0   0   6   1   0   0   6   0   0   0   3 |   a = 1
+   0 585   0   1   0  19   0   0   0   0   0  28 |   b = 2
+   3   0 362   2  44   8  24  37   0  79  55  13 |   c = 3
+  11  15  42 302  14  68  32   7  39 224  13  12 |   d = 4
+   2  15  42   2 749   8  17  15   0   9 100  31 |   e = 5
+   1  33   5  33  32 443   2   4   0  26  19  90 |   f = 6
+   8  11  77  17 138  41 223  47  15  54 197  83 |   g = 7
+   7  14 113   6 120   4 102 241   4  28  97  29 |   h = 8
+   2   0  27   2   2   0  56   1 422 112  21   0 |   i = 9
+   1   0  60  20  13  22  22   1 157 374  16  12 |   j = 10
+   2   0  51   2  37   2  66  22   9  31 673  24 |   k = 11
+  12  32  11  16  99  77  16   5   6  23  87 282 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 17 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5354               59.0493 %
+Incorrectly Classified Instances      3713               40.9507 %
+Kappa statistic                          0.552 
+K&B Relative Info Score             527588.4376 %
+K&B Information Score                18820.8446 bits      2.0758 bits/instance
+Class complexity | order 0           32342.9055 bits      3.5671 bits/instance
+Class complexity | scheme           271907.9055 bits     29.9887 bits/instance
+Complexity improvement     (Sf)    -239565      bits    -26.4216 bits/instance
+Mean absolute error                      0.0683
+Root mean squared error                  0.2571
+Relative absolute error                 44.7955 %
+Root relative squared error             93.13   %
+Coverage of cases (0.95 level)          60.9132 %
+Mean rel. region size (0.95 level)       8.9712 %
+Total Number of Instances             9067     
+
+fMeasure:0.8584202682563338 precision:0.8124118476727785 recall:0.909952606635071
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 738   0   0   3   1   3   2   3   0   1   0   1 |   a = 1
+   0 576   0   1   0  27   0   0   0   0   0  29 |   b = 2
+   1   0 335   5  38   9  66  32   3  60  53   7 |   c = 3
+  15  11  40 279   9  68  37  10  46 206  15  12 |   d = 4
+   2  14  55   2 753   1  13  28   0   9  93  34 |   e = 5
+   0  26   6  32  28 424   2   7   1  24  17  88 |   f = 6
+  11  11  78  12 124  40 265  31  18  47 197  91 |   g = 7
+   5  18 106   5 128   5 139 234   3  17  90  37 |   h = 8
+   0   0  30   1   1   0  65   0 409 112  19   0 |   i = 9
+   2   1  68  15  11  21  30   3 173 369  13   5 |   j = 10
+   1   0  50   1  43   3  89  19   7  33 657  31 |   k = 11
+   7  52   9  11  85  52  20  12   8  29  72 315 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 18 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5346               58.9611 %
+Incorrectly Classified Instances      3721               41.0389 %
+Kappa statistic                          0.5511
+K&B Relative Info Score             527050.9307 %
+K&B Information Score                18801.325  bits      2.0736 bits/instance
+Class complexity | order 0           32350.5691 bits      3.5679 bits/instance
+Class complexity | scheme           261906.552  bits     28.8857 bits/instance
+Complexity improvement     (Sf)    -229555.9829 bits    -25.3177 bits/instance
+Mean absolute error                      0.0683
+Root mean squared error                  0.2574
+Relative absolute error                 44.8085 %
+Root relative squared error             93.2352 %
+Coverage of cases (0.95 level)          61.1779 %
+Mean rel. region size (0.95 level)       8.962  %
+Total Number of Instances             9067     
+
+fMeasure:0.8575581395348837 precision:0.8071135430916553 recall:0.9147286821705426
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 679   0   0   4   1   0   1   4   0   2   0   3 |   a = 1
+   0 590   0   2   0  23   0   0   0   0   0  30 |   b = 2
+   3   0 318   6  43  13  44  60   0  69  35  12 |   c = 3
+  10  10  49 324   8  58  45  16  31 228   9  10 |   d = 4
+   4  23  48   5 744   4  10  18   0   6  93  42 |   e = 5
+   1  33   7  38  29 436   1   5   0  28  19  85 |   f = 6
+  10  11  78  14 133  47 247  35  15  52 198  80 |   g = 7
+   6  17 121   3 118   4 129 221   3  16  87  35 |   h = 8
+   3   0  31   4   0   1  55   2 430 116  22   0 |   i = 9
+   1   1  63  18  12  15  23   4 158 359  16   6 |   j = 10
+   0   0  39   0  47   4  77  29  13  34 706  16 |   k = 11
+   8  46  12   8  86  75  12   9   9  26  80 292 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 19 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5320               58.6743 %
+Incorrectly Classified Instances      3747               41.3257 %
+Kappa statistic                          0.5481
+K&B Relative Info Score             523129.2719 %
+K&B Information Score                18661.1542 bits      2.0581 bits/instance
+Class complexity | order 0           32339.0128 bits      3.5667 bits/instance
+Class complexity | scheme           261712.7022 bits     28.8643 bits/instance
+Complexity improvement     (Sf)    -229373.6894 bits    -25.2976 bits/instance
+Mean absolute error                      0.069 
+Root mean squared error                  0.2586
+Relative absolute error                 45.2901 %
+Root relative squared error             93.6678 %
+Coverage of cases (0.95 level)          60.7809 %
+Mean rel. region size (0.95 level)       8.9969 %
+Total Number of Instances             9067     
+
+fMeasure:0.8563300142247511 precision:0.800531914893617 recall:0.9204892966360856
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 720   0   0   4   0   1   1   6   0   1   0   4 |   a = 1
+   0 602   0   1   0  23   0   0   0   0   0  28 |   b = 2
+   1   0 349   4  41   9  38  64   1  59  40  15 |   c = 3
+  13  16  51 325  12  66  33  12  40 205   9  14 |   d = 4
+   1  21  53   2 746   8  14  15   0  11  93  32 |   e = 5
+   0  38   4  27  27 421   1   5   0  23  17  91 |   f = 6
+   9  11  74  12 140  36 238  37  12  48 202  94 |   g = 7
+   4  19 115   7 123   4 113 253   4  22  97  26 |   h = 8
+   2   0  40   4   1   1  68   4 376 128  20   0 |   i = 9
+   1   0  69  19  14  22  25   5 163 334  19   8 |   j = 10
+   2   0  42   1  39   1  72  29  13  36 672  33 |   k = 11
+   8  45  11  14  89  74   9   6   6  19  81 284 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 20 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5379               59.325  %
+Incorrectly Classified Instances      3688               40.675  %
+Kappa statistic                          0.5552
+K&B Relative Info Score             532235.6405 %
+K&B Information Score                18974.2837 bits      2.0927 bits/instance
+Class complexity | order 0           32356.424  bits      3.5686 bits/instance
+Class complexity | scheme           244400.6101 bits     26.955  bits/instance
+Complexity improvement     (Sf)    -212044.1861 bits    -23.3864 bits/instance
+Mean absolute error                      0.0677
+Root mean squared error                  0.2558
+Relative absolute error                 44.4062 %
+Root relative squared error             92.657  %
+Coverage of cases (0.95 level)          61.8507 %
+Mean rel. region size (0.95 level)       9.0291 %
+Total Number of Instances             9067     
+
+fMeasure:0.8579752367079388 precision:0.8057455540355677 recall:0.9174454828660437
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 739   0   1   4   0   2   0   2   0   1   0   2 |   a = 1
+   0 589   0   1   0  23   0   0   0   0   0  29 |   b = 2
+   1   0 341  13  48  10  21  59   0  55  65   6 |   c = 3
+  12  15  39 300  14  76  50   8  35 206  10  14 |   d = 4
+   7  19  46   4 727   8  14  18   0   8  96  33 |   e = 5
+   1  38   6  21  34 455   3   1   1  18  18  90 |   f = 6
+  11  12  79  12 137  43 240  47  16  36 205  73 |   g = 7
+   6  19 109  10 139   6 106 254   4  18  94  28 |   h = 8
+   2   0  37   2   3   0  43   8 406 104  23   0 |   i = 9
+   2   1  77  20  16  27  21   3 155 356  22   9 |   j = 10
+   1   0  44   0  42   3  47  26  12  44 691  21 |   k = 11
+   8  38  11   9  98  71  14   6   5  23  74 281 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 21 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5382               59.3581 %
+Incorrectly Classified Instances      3685               40.6419 %
+Kappa statistic                          0.5553
+K&B Relative Info Score             530195.9611 %
+K&B Information Score                18919.5348 bits      2.0866 bits/instance
+Class complexity | order 0           32330.1406 bits      3.5657 bits/instance
+Class complexity | scheme           254861.357  bits     28.1087 bits/instance
+Complexity improvement     (Sf)    -222531.2164 bits    -24.543  bits/instance
+Mean absolute error                      0.0678
+Root mean squared error                  0.256 
+Relative absolute error                 44.4792 %
+Root relative squared error             92.7583 %
+Coverage of cases (0.95 level)          61.5088 %
+Mean rel. region size (0.95 level)       8.9997 %
+Total Number of Instances             9067     
+
+fMeasure:0.8518518518518519 precision:0.7909215955983494 recall:0.9229534510433387
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 717   0   0   4   0   2   3   6   0   0   0   2 |   a = 1
+   0 575   0   1   0  29   0   0   0   0   0  18 |   b = 2
+   2   0 348   3  69  12  37  44   0  50  45   9 |   c = 3
+  11  14  42 310  11  69  41   8  25 224  14  10 |   d = 4
+   3  22  62   3 739   6  16  20   0   9 104  30 |   e = 5
+   0  42   3  29  26 443   1   6   1  12  20  79 |   f = 6
+  10  13  75  11 127  56 263  27  16  41 190  81 |   g = 7
+  10  11 117   5 119   6 132 250   3  16  85  25 |   h = 8
+   3   0  24   2   0   1  64   0 375 145  36   0 |   i = 9
+   3   1  52  24  20  32  31   2 137 360  21   6 |   j = 10
+   0   0  34   0  33   2  75  15   8  39 696  41 |   k = 11
+   8  49   9  12  88  61  12   5   8  30  77 306 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 22 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5313               58.5971 %
+Incorrectly Classified Instances      3754               41.4029 %
+Kappa statistic                          0.5472
+K&B Relative Info Score             524185.2804 %
+K&B Information Score                18683.2152 bits      2.0606 bits/instance
+Class complexity | order 0           32361.8615 bits      3.5692 bits/instance
+Class complexity | scheme           255930.7448 bits     28.2266 bits/instance
+Complexity improvement     (Sf)    -223568.8833 bits    -24.6574 bits/instance
+Mean absolute error                      0.0691
+Root mean squared error                  0.259 
+Relative absolute error                 45.3358 %
+Root relative squared error             93.8012 %
+Coverage of cases (0.95 level)          60.7037 %
+Mean rel. region size (0.95 level)       8.9556 %
+Total Number of Instances             9067     
+
+fMeasure:0.8733031674208145 precision:0.8391304347826087 recall:0.910377358490566
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 744   0   1   5   1   2   2   7   0   0   0   2 |   a = 1
+   0 579   0   1   0  26   0   0   0   0   0  30 |   b = 2
+   2   0 373   4  38   8  27  40   0  73  57   8 |   c = 3
+  14  12  48 280   8  86  40  15  32 243  13  14 |   d = 4
+   5  16  51   2 706   6  15  25   0   9  99  25 |   e = 5
+   1  28   8  23  32 453   3   8   0  21  20  72 |   f = 6
+  10   8  83   9 123  62 258  38  12  45 208  63 |   g = 7
+   6  16 105   7 107   4 136 224   1  20  95  24 |   h = 8
+   3   0  33   1   1   0  60   2 384 136  22   0 |   i = 9
+   1   1  77  12  13  32  27   2 150 367  18   5 |   j = 10
+   1   0  48   0  44   9  84  23  11  31 688   7 |   k = 11
+   9  30   8  10  95  89  18  10   6  27  88 257 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 23 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5433               59.9206 %
+Incorrectly Classified Instances      3634               40.0794 %
+Kappa statistic                          0.5615
+K&B Relative Info Score             535870.8684 %
+K&B Information Score                19105.6889 bits      2.1072 bits/instance
+Class complexity | order 0           32354.0285 bits      3.5683 bits/instance
+Class complexity | scheme           240741.0248 bits     26.5513 bits/instance
+Complexity improvement     (Sf)    -208386.9963 bits    -22.983  bits/instance
+Mean absolute error                      0.0669
+Root mean squared error                  0.2545
+Relative absolute error                 43.9108 %
+Root relative squared error             92.1739 %
+Coverage of cases (0.95 level)          62.1926 %
+Mean rel. region size (0.95 level)       9.0024 %
+Total Number of Instances             9067     
+
+fMeasure:0.860482103725347 precision:0.8146611341632088 recall:0.9117647058823529
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 716   0   1   5   1   0   2   5   0   0   0   2 |   a = 1
+   0 589   0   1   0  26   0   0   0   0   0  30 |   b = 2
+   2   0 359   1  57   8  49  40   0  55  52   7 |   c = 3
+  12  10  46 314  10  64  29   8  30 220  16  17 |   d = 4
+   1  18  59   2 753   6  12  22   0   4 102  25 |   e = 5
+   0  29   8  30  31 431   1   6   1  26  25  89 |   f = 6
+  11  13  80  14 143  42 270  29  17  38 194  64 |   g = 7
+   5  14 103   4 143   5 108 243   1  16 105  29 |   h = 8
+   2   0  27   3   1   0  55   0 409  95  27   0 |   i = 9
+   1   0  61  20  17  25  28   1 138 368  22   5 |   j = 10
+   1   0  41   1  41   1  67  24  10  27 682  29 |   k = 11
+   9  50  14  11 105  53  19   2   7  26  87 299 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 24 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5427               59.8544 %
+Incorrectly Classified Instances      3640               40.1456 %
+Kappa statistic                          0.5609
+K&B Relative Info Score             536050.7605 %
+K&B Information Score                19134.8613 bits      2.1104 bits/instance
+Class complexity | order 0           32335.2084 bits      3.5663 bits/instance
+Class complexity | scheme           249463.869  bits     27.5134 bits/instance
+Complexity improvement     (Sf)    -217128.6606 bits    -23.9471 bits/instance
+Mean absolute error                      0.0669
+Root mean squared error                  0.2544
+Relative absolute error                 43.9169 %
+Root relative squared error             92.1638 %
+Coverage of cases (0.95 level)          62.1705 %
+Mean rel. region size (0.95 level)       9.0015 %
+Total Number of Instances             9067     
+
+fMeasure:0.8668639053254438 precision:0.8071625344352618 recall:0.9361022364217252
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 762   0   2   6   1   0   1   7   0   0   0   2 |   a = 1
+   0 586   0   0   0  20   0   0   0   0   0  20 |   b = 2
+   2   0 351   3  52   9  37  46   1  58  54  10 |   c = 3
+  13  17  45 324  12  74  32   6  25 212  14  12 |   d = 4
+   4  18  52   4 737  11   7  27   0  12  99  40 |   e = 5
+   0  37   7  26  22 429   1   6   1  23  19  93 |   f = 6
+  10  11  76  12 141  50 237  35  16  51 210  79 |   g = 7
+   6  16 104   7 125   4 123 253   0  15  92  40 |   h = 8
+   1   0  28   4   1   1  47   3 409 115  25   0 |   i = 9
+   2   0  61  21  17  23  22   4 139 349  24  10 |   j = 10
+   1   0  37   1  37   2  75  31  15  28 689  18 |   k = 11
+   8  41  11  10  77  60  10   6   5  22  72 301 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 25 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5459               60.2073 %
+Incorrectly Classified Instances      3608               39.7927 %
+Kappa statistic                          0.5647
+K&B Relative Info Score             540066.5104 %
+K&B Information Score                19252.2679 bits      2.1233 bits/instance
+Class complexity | order 0           32352.9195 bits      3.5682 bits/instance
+Class complexity | scheme           226675.2742 bits     25      bits/instance
+Complexity improvement     (Sf)    -194322.3547 bits    -21.4318 bits/instance
+Mean absolute error                      0.0663
+Root mean squared error                  0.2532
+Relative absolute error                 43.5062 %
+Root relative squared error             91.725  %
+Coverage of cases (0.95 level)          62.4683 %
+Mean rel. region size (0.95 level)       8.9932 %
+Total Number of Instances             9067     
+
+fMeasure:0.8681481481481481 precision:0.8288543140028288 recall:0.911353032659409
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 736   0   1   1   1   2   1   8   0   0   0   2 |   a = 1
+   0 586   0   1   0  17   0   0   0   0   0  39 |   b = 2
+   1   0 349   2  49  11  31  57   0  64  57   3 |   c = 3
+  12   8  42 306  14  60  42   8  29 232  14  12 |   d = 4
+   2  13  50   3 749   5  13  18   0   6  89  36 |   e = 5
+   1  33   6  35  37 433   2   7   1  17  14  76 |   f = 6
+  11  10  74  14 130  47 244  46  15  40 206  71 |   g = 7
+   7  14 116   7 127   3 104 247   1  24  87  28 |   h = 8
+   3   0  25   1   2   0  53   2 462  88  26   0 |   i = 9
+   2   1  67  18  18  27  27   3 149 372  19   6 |   j = 10
+   1   0  31   0  41   7  72  18  15  29 711  13 |   k = 11
+   6  42  11   9  90  81  23   6   6  22  81 264 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 26 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5356               59.0714 %
+Incorrectly Classified Instances      3711               40.9286 %
+Kappa statistic                          0.5523
+K&B Relative Info Score             527586.9866 %
+K&B Information Score                18815.3693 bits      2.0751 bits/instance
+Class complexity | order 0           32348.6686 bits      3.5677 bits/instance
+Class complexity | scheme           255691.3552 bits     28.2002 bits/instance
+Complexity improvement     (Sf)    -223342.6866 bits    -24.6325 bits/instance
+Mean absolute error                      0.0682
+Root mean squared error                  0.2575
+Relative absolute error                 44.7726 %
+Root relative squared error             93.2648 %
+Coverage of cases (0.95 level)          60.9022 %
+Mean rel. region size (0.95 level)       8.9307 %
+Total Number of Instances             9067     
+
+fMeasure:0.8575712143928036 precision:0.8265895953757225 recall:0.8909657320872274
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 752   0   0   3   1   2   0   6   0   2   0   0 |   a = 1
+   0 572   0   0   0  25   0   0   0   0   0  45 |   b = 2
+   2   0 336   4  53   9  27  62   1  66  52   6 |   c = 3
+  10   7  40 293  10  70  38  11  36 226  12   8 |   d = 4
+   5  18  43   4 737   7  12  21   0   8 107  44 |   e = 5
+   0  33   5  23  24 452   2   4   1  27  17  68 |   f = 6
+   9   8  81  14 141  50 257  46  15  35 199  75 |   g = 7
+   5  14 117   5 125   2 104 259   0  17 110  26 |   h = 8
+   2   0  21   3   3   0  52   6 417 126  26   0 |   i = 9
+   0   0  56  14  12  25  30   3 150 362  18   6 |   j = 10
+   2   0  36   0  47   6  76  26  11  28 672   9 |   k = 11
+   8  40  12   9  92 104  19   8   4  31  85 247 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 27 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5444               60.0419 %
+Incorrectly Classified Instances      3623               39.9581 %
+Kappa statistic                          0.5631
+K&B Relative Info Score             537581.8475 %
+K&B Information Score                19164.9191 bits      2.1137 bits/instance
+Class complexity | order 0           32351.7982 bits      3.5681 bits/instance
+Class complexity | scheme           242351.4899 bits     26.729  bits/instance
+Complexity improvement     (Sf)    -209999.6917 bits    -23.1609 bits/instance
+Mean absolute error                      0.0667
+Root mean squared error                  0.2538
+Relative absolute error                 43.7544 %
+Root relative squared error             91.9258 %
+Coverage of cases (0.95 level)          62.2698 %
+Mean rel. region size (0.95 level)       9.0061 %
+Total Number of Instances             9067     
+
+fMeasure:0.8558888076079006 precision:0.8024691358024691 recall:0.9169278996865203
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 747   0   0   3   1   2   2   5   0   1   0   1 |   a = 1
+   0 585   0   0   1  21   0   0   0   0   0  31 |   b = 2
+   2   0 350   6  54  12  32  42   1  69  45   8 |   c = 3
+  11  15  40 314   7  62  40  17  27 225  14  10 |   d = 4
+   4  18  37   4 757  11   8  17   0   4  90  34 |   e = 5
+   1  38   6  40  24 426   4   5   0  22  22  74 |   f = 6
+  13  14  81  13 124  41 248  31  13  54 194  77 |   g = 7
+   6  14 132   6 119   6 120 240   1  14  99  33 |   h = 8
+   3   0  27   2   2   0  55   3 428 118  21   0 |   i = 9
+   1   1  61  18  12  19  32   3 155 364  17   7 |   j = 10
+   2   0  41   0  36   2  74  16  12  38 685  25 |   k = 11
+  10  44  12  13  80  57  13   7   8  31  70 300 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 28 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5397               59.5235 %
+Incorrectly Classified Instances      3670               40.4765 %
+Kappa statistic                          0.5571
+K&B Relative Info Score             533641.9854 %
+K&B Information Score                19023.2737 bits      2.0981 bits/instance
+Class complexity | order 0           32356.8498 bits      3.5686 bits/instance
+Class complexity | scheme           251692.07   bits     27.7591 bits/instance
+Complexity improvement     (Sf)    -219335.2202 bits    -24.1905 bits/instance
+Mean absolute error                      0.0675
+Root mean squared error                  0.2558
+Relative absolute error                 44.3121 %
+Root relative squared error             92.6363 %
+Coverage of cases (0.95 level)          61.7404 %
+Mean rel. region size (0.95 level)       8.9905 %
+Total Number of Instances             9067     
+
+fMeasure:0.8631732168850071 precision:0.8145604395604396 recall:0.9179566563467493
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 723   0   1   3   1   1   1   7   0   0   0   4 |   a = 1
+   0 593   0   1   0  22   0   0   0   0   0  30 |   b = 2
+   2   0 376   3  50   9  22  36   1  65  55  16 |   c = 3
+  12  16  39 313  10  70  34  10  21 217  13  10 |   d = 4
+   3  23  47   1 752   7  15  22   0   7  98  36 |   e = 5
+   1  30   4  31  31 436   4   3   0  20  24  92 |   f = 6
+   9  11  74  14 126  46 221  58  11  55 187  77 |   g = 7
+   8  15 117   4 123   6 104 237   1  24  95  18 |   h = 8
+   1   0  28   0   2   1  65   0 382 130  27   0 |   i = 9
+   3   1  84  13  16  26  22   2 149 364  16   8 |   j = 10
+   1   0  45   0  41   1  73  17   9  35 704  19 |   k = 11
+  10  39   8  11  89  58  23   5   3  28  97 296 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 29 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5402               59.5787 %
+Incorrectly Classified Instances      3665               40.4213 %
+Kappa statistic                          0.5579
+K&B Relative Info Score             533086.9447 %
+K&B Information Score                19008.9033 bits      2.0965 bits/instance
+Class complexity | order 0           32348.2253 bits      3.5677 bits/instance
+Class complexity | scheme           244602.2029 bits     26.9772 bits/instance
+Complexity improvement     (Sf)    -212253.9775 bits    -23.4095 bits/instance
+Mean absolute error                      0.0674
+Root mean squared error                  0.2552
+Relative absolute error                 44.1897 %
+Root relative squared error             92.4443 %
+Coverage of cases (0.95 level)          61.6742 %
+Mean rel. region size (0.95 level)       9.0079 %
+Total Number of Instances             9067     
+
+fMeasure:0.8629518072289156 precision:0.8116147308781869 recall:0.9212218649517685
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 718   0   0   5   1   0   1   5   0   0   0   3 |   a = 1
+   0 573   0   1   0  18   0   0   0   0   0  30 |   b = 2
+   1   0 374   4  50   9  27  38   1  67  45   4 |   c = 3
+  13  15  49 294  13  70  44  10  24 237  13  11 |   d = 4
+   2  19  50   4 716   6  23  11   0   9 105  27 |   e = 5
+   0  34   6  28  29 438   3   4   1  24  18  73 |   f = 6
+   9  11  67  14 140  39 254  42  15  48 193  75 |   g = 7
+   6   8 118   4 125   7 122 231   0  23  96  29 |   h = 8
+   4   0  42   4   3   0  49   1 418 123  22   0 |   i = 9
+   3   0  75  18  21  24  35   2 115 373  19  10 |   j = 10
+   1   0  44   0  50   5  79  17  11  32 709  15 |   k = 11
+   6  46   9   6  87  77  18   5   7  28  76 304 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 30 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5342               58.917  %
+Incorrectly Classified Instances      3725               41.083  %
+Kappa statistic                          0.5506
+K&B Relative Info Score             525392.9705 %
+K&B Information Score                18734.8396 bits      2.0663 bits/instance
+Class complexity | order 0           32350.7072 bits      3.568  bits/instance
+Class complexity | scheme           254832.9225 bits     28.1055 bits/instance
+Complexity improvement     (Sf)    -222482.2153 bits    -24.5376 bits/instance
+Mean absolute error                      0.0686
+Root mean squared error                  0.2579
+Relative absolute error                 44.9871 %
+Root relative squared error             93.4098 %
+Coverage of cases (0.95 level)          61.0235 %
+Mean rel. region size (0.95 level)       8.9868 %
+Total Number of Instances             9067     
+
+fMeasure:0.84862043251305 precision:0.7969187675070029 recall:0.9074960127591707
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 730   0   0   1   0   0   1   7   0   0   0   0 |   a = 1
+   0 569   0   0   0  21   0   0   0   0   0  37 |   b = 2
+   3   0 363   9  55  14  40  40   0  74  41   5 |   c = 3
+  16  13  39 293  12  73  42  11  29 214   9  14 |   d = 4
+   4  20  46   4 735   9  14  18   0  12  91  38 |   e = 5
+   1  44   5  24  31 418   5   7   0  16  13  85 |   f = 6
+  13  11  95  16 137  48 251  30  18  39 205  67 |   g = 7
+   7  14 116   7 117   5 132 245   2  16  95  23 |   h = 8
+   2   0  37   5   1   1  61   2 430 101  33   0 |   i = 9
+   1   1  68  23  10  20  29   3 164 338  23   7 |   j = 10
+   1   0  51   1  49   3  61  19  15  27 698  11 |   k = 11
+  11  42  11   9  97  70  23   9   9  19  75 272 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 31 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5378               59.314  %
+Incorrectly Classified Instances      3689               40.686  %
+Kappa statistic                          0.5548
+K&B Relative Info Score             531222.273  %
+K&B Information Score                18938.8904 bits      2.0888 bits/instance
+Class complexity | order 0           32353.3672 bits      3.5683 bits/instance
+Class complexity | scheme           246664.5567 bits     27.2046 bits/instance
+Complexity improvement     (Sf)    -214311.1895 bits    -23.6364 bits/instance
+Mean absolute error                      0.0679
+Root mean squared error                  0.2562
+Relative absolute error                 44.5345 %
+Root relative squared error             92.7993 %
+Coverage of cases (0.95 level)          61.6521 %
+Mean rel. region size (0.95 level)       9.0309 %
+Total Number of Instances             9067     
+
+fMeasure:0.8514705882352942 precision:0.8008298755186722 recall:0.9089481946624803
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 734   0   1   3   0   1   2   6   0   0   0   1 |   a = 1
+   0 579   0   0   0  24   0   0   0   0   0  34 |   b = 2
+   3   0 361   1  49  11  34  57   3  62  51   7 |   c = 3
+  11  14  42 311  11  69  42  12  26 219  20  12 |   d = 4
+   5  23  35   2 720   9  14  19   0  11  91  43 |   e = 5
+   0  35   3  25  32 434   3   6   0  21  25  72 |   f = 6
+   9  17  68  10 131  47 270  45  16  41 176  71 |   g = 7
+   6  15 118   5 114   3 114 249   4  13 104  28 |   h = 8
+   1   0  31   3   2   0  72   2 406 119  30   0 |   i = 9
+   3   1  69  17  17  17  22   4 144 350  29   8 |   j = 10
+   1   0  36   1  50   4 100  23  13  24 704   7 |   k = 11
+   6  39  10   8 109  74  19   6   3  32  76 260 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 32 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5341               58.9059 %
+Incorrectly Classified Instances      3726               41.0941 %
+Kappa statistic                          0.5506
+K&B Relative Info Score             528534.0076 %
+K&B Information Score                18828.3823 bits      2.0766 bits/instance
+Class complexity | order 0           32371.7053 bits      3.5703 bits/instance
+Class complexity | scheme           255551.577  bits     28.1848 bits/instance
+Complexity improvement     (Sf)    -223179.8717 bits    -24.6145 bits/instance
+Mean absolute error                      0.0684
+Root mean squared error                  0.2577
+Relative absolute error                 44.8768 %
+Root relative squared error             93.346  %
+Coverage of cases (0.95 level)          61.0125 %
+Mean rel. region size (0.95 level)       8.9188 %
+Total Number of Instances             9067     
+
+fMeasure:0.8624910007199424 precision:0.8239339752407153 recall:0.904833836858006
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 742   0   1   3   0   0   1   3   0   1   0   3 |   a = 1
+   0 599   0   1   0  25   0   0   0   0   0  37 |   b = 2
+   2   0 363   8  52   6  26  40   1  66  45  22 |   c = 3
+  11  13  38 290   9  64  43  10  30 260  12  10 |   d = 4
+   4  21  33   5 753   6  14  12   0   9 100  37 |   e = 5
+   0  34   4  31  28 409   3   6   0  21  17 118 |   f = 6
+  14  10  75  15 112  36 243  25  12  47 209 101 |   g = 7
+   8  12 113   6 140   6 117 213   2  11 106  25 |   h = 8
+   2   0  31   3   1   0  54   0 385 141  23   0 |   i = 9
+   1   0  62  20  14  23  26   0 153 364  16  16 |   j = 10
+   0   0  40   0  42   0  69   8  12  33 672  34 |   k = 11
+   7  38   6   9  76  68  19   8   3  24  96 308 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 33 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5341               58.9059 %
+Incorrectly Classified Instances      3726               41.0941 %
+Kappa statistic                          0.5503
+K&B Relative Info Score             525284.3111 %
+K&B Information Score                18748.8921 bits      2.0678 bits/instance
+Class complexity | order 0           32334.8551 bits      3.5662 bits/instance
+Class complexity | scheme           253108.2464 bits     27.9153 bits/instance
+Complexity improvement     (Sf)    -220773.3913 bits    -24.3491 bits/instance
+Mean absolute error                      0.0686
+Root mean squared error                  0.2579
+Relative absolute error                 45.0295 %
+Root relative squared error             93.4184 %
+Coverage of cases (0.95 level)          60.9353 %
+Mean rel. region size (0.95 level)       8.9951 %
+Total Number of Instances             9067     
+
+fMeasure:0.8562918838421444 precision:0.8132956152758133 recall:0.9040880503144654
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 725   0   1   2   1   0   1   4   0   0   0   2 |   a = 1
+   0 575   0   1   0  22   0   0   0   0   0  38 |   b = 2
+   3   0 338   5  42  14  21  55   2  65  50   5 |   c = 3
+  14  17  40 309  17  67  44   6  32 236  13  13 |   d = 4
+   5  15  55   5 735  13  16  21   0   8 113  24 |   e = 5
+   1  34   4  26  30 420   3   6   0  17  15  94 |   f = 6
+  11  10  73  11 152  48 229  50  11  48 196  68 |   g = 7
+   5  16 110   6 126   3 104 236   7  13 102  23 |   h = 8
+   3   0  38   4   0   1  51   4 411  93  22   0 |   i = 9
+   2   1  70  17  14  32  25   4 165 344  20   8 |   j = 10
+   1   0  35   0  52   3  57  32  14  32 711  25 |   k = 11
+   9  39  12   9  97  67  15   6   7  30  79 308 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 34 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5353               59.0383 %
+Incorrectly Classified Instances      3714               40.9617 %
+Kappa statistic                          0.5521
+K&B Relative Info Score             530080.4314 %
+K&B Information Score                18875.1516 bits      2.0817 bits/instance
+Class complexity | order 0           32385.421  bits      3.5718 bits/instance
+Class complexity | scheme           257598.0066 bits     28.4105 bits/instance
+Complexity improvement     (Sf)    -225212.5856 bits    -24.8387 bits/instance
+Mean absolute error                      0.0682
+Root mean squared error                  0.257 
+Relative absolute error                 44.7661 %
+Root relative squared error             93.0685 %
+Coverage of cases (0.95 level)          61.3213 %
+Mean rel. region size (0.95 level)       9.0079 %
+Total Number of Instances             9067     
+
+fMeasure:0.8591954022988506 precision:0.8026845637583893 recall:0.9242658423493045
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 725   0   0   3   1   1   3   5   0   0   0   5 |   a = 1
+   0 598   0   0   0  24   0   0   0   0   0  25 |   b = 2
+   2   0 353   3  57  10  42  45   0  65  44  11 |   c = 3
+  11  13  38 291  14  50  44   5  34 219  15  19 |   d = 4
+   4  26  53   3 702   9   7  15   0  11 101  34 |   e = 5
+   1  27   5  43  26 423   3   4   2  21  23  94 |   f = 6
+   9  12  80  12 137  36 246  34   9  47 223  86 |   g = 7
+   3  19 112   4 137   4 121 220   3  18  95  27 |   h = 8
+   3   0  36   3   3   0  67   1 436  91  28   0 |   i = 9
+   2   1  69  22  20  20  32   0 149 370  22  10 |   j = 10
+   1   0  41   0  45   2  58  17  13  27 675  36 |   k = 11
+  11  49  10   9  85  48  15   5   6  25  84 314 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 35 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5386               59.4022 %
+Incorrectly Classified Instances      3681               40.5978 %
+Kappa statistic                          0.556 
+K&B Relative Info Score             532372.5325 %
+K&B Information Score                18967.189  bits      2.0919 bits/instance
+Class complexity | order 0           32371.6789 bits      3.5703 bits/instance
+Class complexity | scheme           251586.2097 bits     27.7475 bits/instance
+Complexity improvement     (Sf)    -219214.5308 bits    -24.1772 bits/instance
+Mean absolute error                      0.0676
+Root mean squared error                  0.2559
+Relative absolute error                 44.3657 %
+Root relative squared error             92.6897 %
+Coverage of cases (0.95 level)          61.7293 %
+Mean rel. region size (0.95 level)       8.9813 %
+Total Number of Instances             9067     
+
+fMeasure:0.8643578643578643 precision:0.8284923928077456 recall:0.9034690799396682
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 722   0   0   5   1   1   2   5   0   1   0   1 |   a = 1
+   0 599   0   1   0  27   0   0   0   0   0  36 |   b = 2
+   2   0 354   8  46  13  34  47   0  61  42   2 |   c = 3
+  15  10  41 301  11  62  50  13  24 224  19  10 |   d = 4
+   6  15  56   3 739   8  11  13   0   8 103  14 |   e = 5
+   1  35   3  37  34 443   3   3   1  19  17  55 |   f = 6
+   7  10  78  11 126  47 240  48  20  43 211  73 |   g = 7
+   3  14 131   6 117   2 121 243   2  12  98  17 |   h = 8
+   2   0  27   1   1   1  55   3 404 133  20   0 |   i = 9
+   3   0  65  25  18  28  30   3 159 362  17   3 |   j = 10
+   1   0  38   0  33   6  70  25  14  33 691  14 |   k = 11
+   8  40   9  11 105  84  20   8   7  26  79 288 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 36 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5404               59.6007 %
+Incorrectly Classified Instances      3663               40.3993 %
+Kappa statistic                          0.5581
+K&B Relative Info Score             533831.8809 %
+K&B Information Score                19030.5994 bits      2.0989 bits/instance
+Class complexity | order 0           32362.3402 bits      3.5692 bits/instance
+Class complexity | scheme           255626.87   bits     28.1931 bits/instance
+Complexity improvement     (Sf)    -223264.5298 bits    -24.6239 bits/instance
+Mean absolute error                      0.0675
+Root mean squared error                  0.2557
+Relative absolute error                 44.2948 %
+Root relative squared error             92.6265 %
+Coverage of cases (0.95 level)          61.6852 %
+Mean rel. region size (0.95 level)       8.9794 %
+Total Number of Instances             9067     
+
+fMeasure:0.8703047484053862 precision:0.8175765645805593 recall:0.9303030303030303
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 761   0   1   5   0   2   1   4   0   1   0   1 |   a = 1
+   0 614   0   0   0  19   0   0   0   0   0  27 |   b = 2
+   3   0 368   3  60  10  26  48   0  68  52   3 |   c = 3
+   7  13  36 310   8  63  42  11  35 237  13   8 |   d = 4
+   3  18  62   5 724   7   8  23   0  10  90  29 |   e = 5
+   0  35   7  30  29 436   3   4   1  20  19  70 |   f = 6
+   6  12  91  15 146  45 225  49  13  37 199  72 |   g = 7
+   5  16 107   3 123   1 124 245   2  22  94  23 |   h = 8
+   1   0  29   4   2   0  54   5 380 104  32   0 |   i = 9
+   2   0  66  22  21  29  19   2 144 349  18   4 |   j = 10
+   1   0  40   2  39   2  57  31  11  36 706  22 |   k = 11
+  10  43  12  13  95  68  12   8   7  26  85 286 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 37 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5359               59.1044 %
+Incorrectly Classified Instances      3708               40.8956 %
+Kappa statistic                          0.5528
+K&B Relative Info Score             529015.4759 %
+K&B Information Score                18880.17   bits      2.0823 bits/instance
+Class complexity | order 0           32328.0507 bits      3.5655 bits/instance
+Class complexity | scheme           258771.3544 bits     28.5399 bits/instance
+Complexity improvement     (Sf)    -226443.3038 bits    -24.9744 bits/instance
+Mean absolute error                      0.068 
+Root mean squared error                  0.2566
+Relative absolute error                 44.6411 %
+Root relative squared error             92.9585 %
+Coverage of cases (0.95 level)          61.2661 %
+Mean rel. region size (0.95 level)       9.0015 %
+Total Number of Instances             9067     
+
+fMeasure:0.8575624082232012 precision:0.8145048814504882 recall:0.9054263565891473
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 728   0   0   4   0   1   1   5   0   1   0   4 |   a = 1
+   0 584   0   1   0  26   0   0   0   0   0  34 |   b = 2
+   2   0 337   4  30  12  43  58   1  63  52  12 |   c = 3
+  11   9  45 303  10  79  38  12  29 213  12  11 |   d = 4
+   4  15  61   4 726   4   9  31   0   9  98  30 |   e = 5
+   0  32   6  39  29 418   5   5   1  26  21  80 |   f = 6
+  11   9  91  11 127  44 237  57  16  45 194  89 |   g = 7
+   5  18 113   7 121   8 111 248   0  22  94  28 |   h = 8
+   5   0  26   3   0   0  38   7 388 135  35   0 |   i = 9
+   3   1  58  13  13  26  18   8 154 374  17  13 |   j = 10
+   1   0  34   0  21   1  52  29  13  49 711  47 |   k = 11
+   8  49  11  14  76  57  10   5   5  28  72 305 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 38 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5277               58.2001 %
+Incorrectly Classified Instances      3790               41.7999 %
+Kappa statistic                          0.5429
+K&B Relative Info Score             519651.5526 %
+K&B Information Score                18527.0106 bits      2.0433 bits/instance
+Class complexity | order 0           32356.7272 bits      3.5686 bits/instance
+Class complexity | scheme           265189.8193 bits     29.2478 bits/instance
+Complexity improvement     (Sf)    -232833.0922 bits    -25.6792 bits/instance
+Mean absolute error                      0.0696
+Root mean squared error                  0.2597
+Relative absolute error                 45.6793 %
+Root relative squared error             94.0715 %
+Coverage of cases (0.95 level)          60.439  %
+Mean rel. region size (0.95 level)       8.9739 %
+Total Number of Instances             9067     
+
+fMeasure:0.8604651162790697 precision:0.8087431693989071 recall:0.9192546583850931
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 718   0   0   6   0   1   1   9   0   0   0   4 |   a = 1
+   0 592   0   0   0  21   0   0   0   0   0  31 |   b = 2
+   2   0 352   2  55  11  31  40   0  70  55   4 |   c = 3
+  12  12  45 287  13  62  36   6  31 246  12   7 |   d = 4
+   3  16  51   3 702   6   7  24   0   5 102  38 |   e = 5
+   0  34   3  40  39 434   4   3   0  17  18  77 |   f = 6
+  12  12  82  18 136  35 244  37  13  53 214  76 |   g = 7
+   6  18 117   6 137   5 116 242   4  17 100  32 |   h = 8
+   1   0  44   3   1   0  53   2 375 126  22   0 |   i = 9
+   1   1  79  16  16  27  25   3 138 354  15   2 |   j = 10
+   0   0  47   0  50   2  77  22  14  38 689  14 |   k = 11
+   7  47  12  10 102  65  18   6   3  33  87 288 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 39 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5439               59.9868 %
+Incorrectly Classified Instances      3628               40.0132 %
+Kappa statistic                          0.5624
+K&B Relative Info Score             540540.5823 %
+K&B Information Score                19241.096  bits      2.1221 bits/instance
+Class complexity | order 0           32398.9366 bits      3.5733 bits/instance
+Class complexity | scheme           246204.9583 bits     27.154  bits/instance
+Complexity improvement     (Sf)    -213806.0217 bits    -23.5807 bits/instance
+Mean absolute error                      0.0667
+Root mean squared error                  0.2541
+Relative absolute error                 43.7507 %
+Root relative squared error             92.0174 %
+Coverage of cases (0.95 level)          62.2257 %
+Mean rel. region size (0.95 level)       8.9767 %
+Total Number of Instances             9067     
+
+fMeasure:0.8721910112359551 precision:0.8369272237196765 recall:0.9105571847507331
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 741   0   1   4   1   1   3   2   0   0   0   2 |   a = 1
+   0 621   0   1   0  31   0   0   0   0   0  29 |   b = 2
+   3   0 351   6  40   9  42  35   2  53  67   6 |   c = 3
+   6  10  52 278  15  66  40   8  35 249  19  13 |   d = 4
+   4  17  49   2 722   5  22  18   0   8 104  18 |   e = 5
+   1  27   6  32  29 447   2   4   0  19  26  80 |   f = 6
+  10  11  70  16 121  44 256  29  17  37 200  73 |   g = 7
+   6  12  97   6 105   6 125 230   2  17 120  20 |   h = 8
+   1   0  33   0   1   0  64   1 438 107  24   0 |   i = 9
+   2   1  62  14  12  27  27   2 151 359  27  10 |   j = 10
+   1   0  44   0  37   1  79  17  12  30 684  28 |   k = 11
+   8  43  12   9  96  50  17   5   3  24  78 312 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 40 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5340               58.8949 %
+Incorrectly Classified Instances      3727               41.1051 %
+Kappa statistic                          0.5504
+K&B Relative Info Score             527234.6378 %
+K&B Information Score                18803.4571 bits      2.0738 bits/instance
+Class complexity | order 0           32357.1207 bits      3.5687 bits/instance
+Class complexity | scheme           253778.2045 bits     27.9892 bits/instance
+Complexity improvement     (Sf)    -221421.0837 bits    -24.4205 bits/instance
+Mean absolute error                      0.0683
+Root mean squared error                  0.2573
+Relative absolute error                 44.836  %
+Root relative squared error             93.1755 %
+Coverage of cases (0.95 level)          61.2882 %
+Mean rel. region size (0.95 level)       8.9951 %
+Total Number of Instances             9067     
+
+fMeasure:0.869948567229978 precision:0.8210818307905686 recall:0.925
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 738   0   2   4   1   1   2   5   0   0   0   2 |   a = 1
+   0 592   0   0   0  17   0   0   0   0   0  31 |   b = 2
+   2   0 361   5  46   7  46  47   1  52  38  10 |   c = 3
+  10  17  55 311  13  71  44   7  32 211  14  14 |   d = 4
+   3  19  50   3 760   2   8  16   0   9  81  51 |   e = 5
+   0  26   8  29  30 403   3   5   1  23  17  91 |   f = 6
+  12   7  81  14 135  43 264  29  12  43 202  95 |   g = 7
+   7  16 107   5 139   2 138 229   2  21  86  29 |   h = 8
+   2   0  37   3   2   0  71   1 392 124  25   0 |   i = 9
+   0   1  73  32  18  22  26   1 166 345  23   7 |   j = 10
+   0   0  45   0  52   0  70  22   9  31 657  16 |   k = 11
+  10  43  12   9  86  57  15   4   7  21  77 288 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 41 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5332               58.8067 %
+Incorrectly Classified Instances      3735               41.1933 %
+Kappa statistic                          0.5494
+K&B Relative Info Score             523419.4849 %
+K&B Information Score                18683.3894 bits      2.0606 bits/instance
+Class complexity | order 0           32334.5765 bits      3.5662 bits/instance
+Class complexity | scheme           257796.5357 bits     28.4324 bits/instance
+Complexity improvement     (Sf)    -225461.9592 bits    -24.8662 bits/instance
+Mean absolute error                      0.0688
+Root mean squared error                  0.2581
+Relative absolute error                 45.154  %
+Root relative squared error             93.4882 %
+Coverage of cases (0.95 level)          61.0014 %
+Mean rel. region size (0.95 level)       9.0089 %
+Total Number of Instances             9067     
+
+fMeasure:0.8488990129081245 precision:0.8020086083213773 recall:0.9016129032258065
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 721   0   2   3   1   2   2   2   0   0   0   1 |   a = 1
+   0 559   0   1   1  16   0   0   0   0   0  43 |   b = 2
+   3   0 367   8  55  12  27  37   1  74  41   5 |   c = 3
+  13  12  39 311  15  62  47   9  26 221  14   8 |   d = 4
+   4  23  40   2 756   5   7  22   0  10 101  27 |   e = 5
+   0  35   6  29  31 442   2   4   0  20  17  97 |   f = 6
+  14   8  91  14 145  39 251  36  17  44 218  71 |   g = 7
+   8  15 151   8 116   4 114 222   3  23  96  24 |   h = 8
+   1   0  40   1   1   0  57   0 360 132  23   0 |   i = 9
+   2   0  61  17  16  21  24   1 157 341  16   7 |   j = 10
+   2   0  47   1  45  11  58  25  11  37 706   7 |   k = 11
+   6  45  10   8 103  70  14   3   6  32  73 296 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 42 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5346               58.9611 %
+Incorrectly Classified Instances      3721               41.0389 %
+Kappa statistic                          0.5511
+K&B Relative Info Score             529172.2965 %
+K&B Information Score                18864.8531 bits      2.0806 bits/instance
+Class complexity | order 0           32366.6164 bits      3.5697 bits/instance
+Class complexity | scheme           254552.1871 bits     28.0746 bits/instance
+Complexity improvement     (Sf)    -222185.5706 bits    -24.5049 bits/instance
+Mean absolute error                      0.0684
+Root mean squared error                  0.2576
+Relative absolute error                 44.8799 %
+Root relative squared error             93.3062 %
+Coverage of cases (0.95 level)          61.0125 %
+Mean rel. region size (0.95 level)       8.9473 %
+Total Number of Instances             9067     
+
+fMeasure:0.8610315186246419 precision:0.8110661268556005 recall:0.917557251908397
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 752   0   2   4   0   1   0   6   0   0   0   2 |   a = 1
+   0 601   0   0   0  18   0   0   0   0   0  36 |   b = 2
+   3   0 362   6  52  15  30  38   1  62  46   7 |   c = 3
+  12  12  48 311  13  75  44   9  20 222  12  10 |   d = 4
+   3  17  52   6 725  11  14  26   0   8 109  32 |   e = 5
+   1  40   3  31  21 392   2   3   1  19  21  96 |   f = 6
+   9  12  70  13 126  45 232  37  15  40 216  87 |   g = 7
+   8  16 100   6 113   4  98 224   1  18 101  35 |   h = 8
+   3   0  46   3   1   1  41   1 400 128  31   0 |   i = 9
+   1   1  75  18  12  23  21   5 147 360  18   9 |   j = 10
+   2   0  48   0  44   4  63  25   6  42 683  31 |   k = 11
+   7  42  12  12  96  85  18   4   4  29  70 304 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 43 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5386               59.4022 %
+Incorrectly Classified Instances      3681               40.5978 %
+Kappa statistic                          0.5561
+K&B Relative Info Score             530872.3218 %
+K&B Information Score                18930.2653 bits      2.0878 bits/instance
+Class complexity | order 0           32353.4851 bits      3.5683 bits/instance
+Class complexity | scheme           245791.4208 bits     27.1084 bits/instance
+Complexity improvement     (Sf)    -213437.9357 bits    -23.5401 bits/instance
+Mean absolute error                      0.0677
+Root mean squared error                  0.256 
+Relative absolute error                 44.4333 %
+Root relative squared error             92.7261 %
+Coverage of cases (0.95 level)          61.6632 %
+Mean rel. region size (0.95 level)       9.0153 %
+Total Number of Instances             9067     
+
+fMeasure:0.8645833333333333 precision:0.8217821782178217 recall:0.9120879120879121
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 719   0   0   4   0   0   2   5   0   1   0   3 |   a = 1
+   0 581   0   0   0  26   0   0   0   0   0  30 |   b = 2
+   3   0 367   1  41  11  36  43   1  76  44  10 |   c = 3
+  12  13  47 301  12  67  38   3  35 232  15  14 |   d = 4
+   4  17  53   3 737   4  18  20   0  10  98  38 |   e = 5
+   1  31   4  26  30 438   4   6   1  28  23  89 |   f = 6
+   9   6  81   7 124  41 238  49  18  50 198  91 |   g = 7
+   8  18 113   6 137   5 108 247   2  23  76  29 |   h = 8
+   2   0  21   1   0   0  46   1 393 117  26   0 |   i = 9
+   2   1  66  15  12  22  22   2 148 375  12  10 |   j = 10
+   0   0  41   0  39   1  48  24  10  46 698  24 |   k = 11
+   6  40  13  11  98  81  15   3   6  27  90 292 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 44 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5280               58.2332 %
+Incorrectly Classified Instances      3787               41.7668 %
+Kappa statistic                          0.5432
+K&B Relative Info Score             519928.1008 %
+K&B Information Score                18540.8574 bits      2.0449 bits/instance
+Class complexity | order 0           32348.8876 bits      3.5678 bits/instance
+Class complexity | scheme           254651.6409 bits     28.0855 bits/instance
+Complexity improvement     (Sf)    -222302.7533 bits    -24.5178 bits/instance
+Mean absolute error                      0.0695
+Root mean squared error                  0.2595
+Relative absolute error                 45.6039 %
+Root relative squared error             94.0089 %
+Coverage of cases (0.95 level)          60.6595 %
+Mean rel. region size (0.95 level)       8.985  %
+Total Number of Instances             9067     
+
+fMeasure:0.856054836252856 precision:0.7994310099573257 recall:0.921311475409836
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 742   0   0   4   1   2   2   6   0   0   0   2 |   a = 1
+   0 562   0   1   0  15   0   0   0   0   0  32 |   b = 2
+   2   0 354   7  46  12  29  40   1  59  58   2 |   c = 3
+  15  17  49 297  13  79  39   9  30 214  14  14 |   d = 4
+   3  14  39   4 721   8  23  18   0  15 100  26 |   e = 5
+   1  34   6  33  28 433   1   5   1  22  19  84 |   f = 6
+   9  11  63  10 142  45 261  50  10  48 202  73 |   g = 7
+   5  20 107   3 124   6 120 249   4  19 100  25 |   h = 8
+   3   0  42   1   0   0  54   0 373 151  26   0 |   i = 9
+   1   1  87  16  17  23  25   2 157 336  15   7 |   j = 10
+   2   0  44   0  45   3  78  16  12  40 692   5 |   k = 11
+  12  44  10   8 108  89  28   7   6  27  81 260 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 45 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5376               59.2919 %
+Incorrectly Classified Instances      3691               40.7081 %
+Kappa statistic                          0.5545
+K&B Relative Info Score             527874.4621 %
+K&B Information Score                18831.3733 bits      2.0769 bits/instance
+Class complexity | order 0           32339.5515 bits      3.5667 bits/instance
+Class complexity | scheme           255442.3531 bits     28.1728 bits/instance
+Complexity improvement     (Sf)    -223102.8017 bits    -24.606  bits/instance
+Mean absolute error                      0.068 
+Root mean squared error                  0.2567
+Relative absolute error                 44.6439 %
+Root relative squared error             92.9891 %
+Coverage of cases (0.95 level)          61.1669 %
+Mean rel. region size (0.95 level)       9.007  %
+Total Number of Instances             9067     
+
+fMeasure:0.8678380443086324 precision:0.8231884057971014 recall:0.9176090468497576
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 716   0   1   3   1   1   2   4   0   0   0   2 |   a = 1
+   0 568   0   0   0  21   0   0   0   0   0  30 |   b = 2
+   1   0 339   5  51  12  21  58   0  63  66   5 |   c = 3
+  12   6  43 329  11  59  50  11  35 222  15  11 |   d = 4
+   6  16  39   3 760   4  20  21   0   7 100  28 |   e = 5
+   0  34   7  20  30 461   4   5   0  15  24  64 |   f = 6
+   6  14  73  10 138  42 241  59  15  46 186  70 |   g = 7
+   4  14 109   4 115   4 102 253   1  26 106  27 |   h = 8
+   3   0  36   4   1   0  70   3 400 105  33   0 |   i = 9
+   2   1  74  27  16  26  36   4 140 353  19   7 |   j = 10
+   1   0  47   1  45   5  84  28  10  31 671  25 |   k = 11
+   7  37  10   9  89  75  28   6   7  29  70 285 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 46 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5406               59.6228 %
+Incorrectly Classified Instances      3661               40.3772 %
+Kappa statistic                          0.5584
+K&B Relative Info Score             533818.6059 %
+K&B Information Score                19032.8944 bits      2.0991 bits/instance
+Class complexity | order 0           32364.2424 bits      3.5695 bits/instance
+Class complexity | scheme           241029.7042 bits     26.5832 bits/instance
+Complexity improvement     (Sf)    -208665.4618 bits    -23.0137 bits/instance
+Mean absolute error                      0.0673
+Root mean squared error                  0.2551
+Relative absolute error                 44.1268 %
+Root relative squared error             92.4019 %
+Coverage of cases (0.95 level)          61.9279 %
+Mean rel. region size (0.95 level)       9.0015 %
+Total Number of Instances             9067     
+
+fMeasure:0.8537839823659074 precision:0.8058252427184466 recall:0.9078125
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 732   0   0   3   1   1   3   4   0   0   0   2 |   a = 1
+   0 581   0   1   0  20   0   0   0   0   0  38 |   b = 2
+   2   0 385  10  51  11  36  40   1  56  38   3 |   c = 3
+   8  16  43 310  13  70  43   8  41 253  15  11 |   d = 4
+   4  14  38   4 743   5  14  15   0  10 111  26 |   e = 5
+   1  39   4  26  30 429   2   5   1  20  17  84 |   f = 6
+  11  14  70  12 136  48 257  35  17  50 199  56 |   g = 7
+   4  15 135  10 113   7 128 228   1  20  94  24 |   h = 8
+   2   0  27   1   1   1  48   0 407 101  15   0 |   i = 9
+   3   1  67  17  15  17  22   4 170 368  14   6 |   j = 10
+   2   0  34   0  38   2  84  15  12  33 707   3 |   k = 11
+   5  41  11   8  98  97  18   7   6  26  78 259 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 47 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5356               59.0714 %
+Incorrectly Classified Instances      3711               40.9286 %
+Kappa statistic                          0.5523
+K&B Relative Info Score             529139.3592 %
+K&B Information Score                18864.1329 bits      2.0805 bits/instance
+Class complexity | order 0           32360.3608 bits      3.569  bits/instance
+Class complexity | scheme           269442.9796 bits     29.7169 bits/instance
+Complexity improvement     (Sf)    -237082.6188 bits    -26.1479 bits/instance
+Mean absolute error                      0.0683
+Root mean squared error                  0.2573
+Relative absolute error                 44.809  %
+Root relative squared error             93.1956 %
+Coverage of cases (0.95 level)          61.2    %
+Mean rel. region size (0.95 level)       8.9721 %
+Total Number of Instances             9067     
+
+fMeasure:0.8669527896995709 precision:0.8156123822341858 recall:0.9251908396946565
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 717   0   2   3   1   1   2   4   0   0   0   2 |   a = 1
+   0 606   0   1   0  26   0   0   0   0   0  22 |   b = 2
+   3   0 344   4  54   6  24  41   0  67  58  14 |   c = 3
+   7  11  44 317   9  77  34   6  22 211  11  11 |   d = 4
+   6  15  51   2 733   6  12  24   0   8 106  35 |   e = 5
+   1  34   5  19  26 431   2   4   0  21  21 105 |   f = 6
+  12  14  86  13 119  48 234  36  17  47 172  79 |   g = 7
+   6  17 132   5 127   5 121 245   0  19  94  29 |   h = 8
+   2   0  42   2   2   0  65   1 400 102  17   0 |   i = 9
+   2   0  76  26  20  32  30   3 139 341  13  12 |   j = 10
+   2   0  49   1  42   3  82  25  12  36 674  35 |   k = 11
+   7  46  15  12  98  55   9   8   8  23  78 314 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 48 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5318               58.6523 %
+Incorrectly Classified Instances      3749               41.3477 %
+Kappa statistic                          0.5478
+K&B Relative Info Score             524715.0538 %
+K&B Information Score                18708.9382 bits      2.0634 bits/instance
+Class complexity | order 0           32350.236  bits      3.5679 bits/instance
+Class complexity | scheme           269774.1199 bits     29.7534 bits/instance
+Complexity improvement     (Sf)    -237423.8839 bits    -26.1855 bits/instance
+Mean absolute error                      0.0689
+Root mean squared error                  0.2584
+Relative absolute error                 45.22   %
+Root relative squared error             93.612  %
+Coverage of cases (0.95 level)          61.0125 %
+Mean rel. region size (0.95 level)       9.0079 %
+Total Number of Instances             9067     
+
+fMeasure:0.8661055853098699 precision:0.8262773722627738 recall:0.909967845659164
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 726   0   0   5   1   1   2   4   0   0   0   1 |   a = 1
+   0 566   0   1   1  25   0   0   0   0   0  29 |   b = 2
+   1   0 352   5  44  12  39  43   0  60  49  18 |   c = 3
+  14   8  44 300  11  62  43  12  25 221  11  15 |   d = 4
+   3  14  67   1 694   5  11  26   0   7 112  36 |   e = 5
+   1  32   7  31  26 445   2   6   1  19  20  78 |   f = 6
+  14   9  81  16 120  35 237  41  14  46 195 100 |   g = 7
+   4  17 114   8 109   5 124 248   3  18 105  28 |   h = 8
+   4   0  36   3   1   0  48   5 381 131  38   0 |   i = 9
+   1   1  82  24  18  31  19   4 138 370  19  12 |   j = 10
+   0   0  44   2  32   1  72  31  10  35 688  40 |   k = 11
+  10  38   9   9  80  53  18  10   5  33  84 311 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 49 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5354               59.0493 %
+Incorrectly Classified Instances      3713               40.9507 %
+Kappa statistic                          0.5519
+K&B Relative Info Score             528984.3997 %
+K&B Information Score                18860.612  bits      2.0801 bits/instance
+Class complexity | order 0           32353.8994 bits      3.5683 bits/instance
+Class complexity | scheme           263757.3533 bits     29.0898 bits/instance
+Complexity improvement     (Sf)    -231403.4539 bits    -25.5215 bits/instance
+Mean absolute error                      0.0682
+Root mean squared error                  0.2574
+Relative absolute error                 44.756  %
+Root relative squared error             93.2148 %
+Coverage of cases (0.95 level)          61.1338 %
+Mean rel. region size (0.95 level)       8.9445 %
+Total Number of Instances             9067     
+
+fMeasure:0.863235294117647 precision:0.8130193905817175 recall:0.9200626959247649
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 739   0   0   6   1   1   2   6   0   0   0   1 |   a = 1
+   0 587   0   0   0  24   0   0   0   0   0  27 |   b = 2
+   3   0 334   3  48  12  31  76   1  61  56  12 |   c = 3
+  15   6  44 292  13  57  40   7  35 215  15  17 |   d = 4
+   6  21  50   1 735   9  13  17   0   9 108  36 |   e = 5
+   0  36   4  30  27 435   4   5   1  22  22  71 |   f = 6
+   6  13  66  13 117  42 244  61  14  37 187  88 |   g = 7
+   4  19  98   5 124   4 113 246   5  21 105  34 |   h = 8
+   2   0  26   2   3   0  61   3 393 141  25   0 |   i = 9
+   2   0  62  14  17  23  27   4 140 360  14   7 |   j = 10
+   1   0  39   0  53   8  77  30  14  31 681  20 |   k = 11
+   7  40  11   9  88  72  21   4   3  29  80 308 |   l = 12
+
+~~~~~~~~~~~~~~~~~~~~~~~ Iteration: 50 ~~~~~~~~~~~~~~~~~~~~~~~
+Total Instances: 15111
+Train Instances: 6044
+Test Instances: 9067
+Classification Summary:
+Correctly Classified Instances        5326               58.7405 %
+Incorrectly Classified Instances      3741               41.2595 %
+Kappa statistic                          0.5488
+K&B Relative Info Score             525426.2949 %
+K&B Information Score                18737.0536 bits      2.0665 bits/instance
+Class complexity | order 0           32349.1397 bits      3.5678 bits/instance
+Class complexity | scheme           250745.5573 bits     27.6547 bits/instance
+Complexity improvement     (Sf)    -218396.4176 bits    -24.087  bits/instance
+Mean absolute error                      0.0688
+Root mean squared error                  0.2582
+Relative absolute error                 45.1293 %
+Root relative squared error             93.5328 %
+Coverage of cases (0.95 level)          61.0676 %
+Mean rel. region size (0.95 level)       8.9794 %
+Total Number of Instances             9067     
+
+fMeasure:0.8649045521292218 precision:0.8203342618384402 recall:0.9145962732919255
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+ 743   0   0   5   0   3   2   8   0   0   0   3 |   a = 1
+   0 589   0   1   0  26   0   0   0   0   0  28 |   b = 2
+   2   0 342   4  37  13  39  51   1  51  48   9 |   c = 3
+  12  12  49 307  13  70  40  10  34 227  11  14 |   d = 4
+   6  17  70   5 702  10  20  14   0   5  98  28 |   e = 5
+   0  29   7  24  30 414   2   3   1  22  17 117 |   f = 6
+   8  11  68  16 127  41 269  29  16  41 206  77 |   g = 7
+   5  15 118  11 132   1 130 229   4  14 105  26 |   h = 8
+   2   0  27   3   1   0  57   1 406 114  23   0 |   i = 9
+   2   1  72  15  11  19  27   2 164 349  25   7 |   j = 10
+   1   0  33   0  36   3  84  17  18  30 682  33 |   k = 11
+  10  44  14   8  94  45  19   6   7  33  84 294 |   l = 12
+Precisions:
+[0.7909215955983494, 0.7969187675070029, 0.7994310099573257, 0.800531914893617, 0.8008298755186722, 0.8016997167138811, 0.8020086083213773, 0.8024691358024691, 0.8026845637583893, 0.8057455540355677, 0.8058252427184466, 0.8071135430916553, 0.8071625344352618, 0.8075801749271136, 0.8087431693989071, 0.8102409638554217, 0.8110661268556005, 0.8116147308781869, 0.8124118476727785, 0.8130193905817175, 0.8132956152758133, 0.814404432132964, 0.8145048814504882, 0.8145604395604396, 0.8146611341632088, 0.8156123822341858, 0.8161865569272977, 0.8175765645805593, 0.8187221396731055, 0.8197932053175776, 0.8203342618384402, 0.8205128205128205, 0.8205128205128205, 0.8210818307905686, 0.8217821782178217, 0.8231884057971014, 0.8239339752407153, 0.8246656760772659, 0.8248914616497829, 0.8262773722627738, 0.8263988522238164, 0.8265895953757225, 0.8284923928077456, 0.8288543140028288, 0.8297872340425532, 0.8311170212765957, 0.8369272237196765, 0.8371104815864022, 0.8391304347826087, 0.8673621460506706]
+Mean:0.8167257263321227
+StandardDeviation:0.013122140421772368
+Median:0.8151367581986972
